@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+import {CardModule} from 'primeng/card';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -13,7 +15,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
