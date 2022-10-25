@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { RequestLogin } from '../../resources/models/RequestLogin';
 import { LoginService } from '../../resources/services/login.service';
+import { AlertService } from '../../resources/services/alert.service';
 
 @Component({
   selector: 'app-login',
@@ -10,7 +11,7 @@ import { LoginService } from '../../resources/services/login.service';
 export class LoginComponent implements OnInit {
   public requestLogin!: RequestLogin;
 
-  constructor(private loginService: LoginService) { }
+  constructor(private loginService: LoginService, private alertService: AlertService) { }
 
   ngOnInit(): void {
     this.requestLogin = new RequestLogin();
@@ -20,10 +21,12 @@ export class LoginComponent implements OnInit {
     this.loginService.doLogin(this.requestLogin).subscribe(
       {
         next: (data) => {
-          console.log(data);
+          this.alertService.info('Funcionalidade ainda não implementada!');
+          // console.log(data);
         },
-        error: (error) => {
-          console.error(error)
+        error: (httpError) => {
+          this.alertService.error(httpError.error.message);
+          // console.error(httpError)
         }
       }
     )
