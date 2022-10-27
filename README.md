@@ -62,18 +62,14 @@
     <a href="https://fontawesome.com/">🔗 Font Awesome</a>
 </h4>
 
-<h2>👩 💻 Autores </h2>
+<h2>💻 Autores </h2>
 
-<a href="https://github.com/Alneide">
-<img src="https://avatars.githubusercontent.com/u/109877622?v=4" width=115><br>
-Alneide Oliveira 
-</a>
-<br>
-
-<a href="https://avatars.githubusercontent.com/u/87579128?v=4">
-<img src="https://avatars.githubusercontent.com/u/87579128?v=4" width=115><br>
-Jéssica de Oliveira 
-</a>
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Alneide"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/109877622?v=4" width="100px;" alt=""/><br /><sub><b>Alneide Oliveira </b></sub></a><br /><a href="https://github.com/Alneide" title="Github Alneide">👩</a></td>
+   <td align="center"><a href="https://github.com/OliveiraJess"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/87579128?v=4" width="100px;" alt=""/><br /><sub><b>Jéssica de Oliveira </b></sub></a><br /><a href="https://github.com/OliveiraJess" title="Github Jéssica">👩</a></td>
+   </tr>
+</table>
 
 <h2>🤝 Contribuindo </h2>
 
